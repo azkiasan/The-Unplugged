@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Simple Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Scroll Test</title>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background: #222831;
+    padding: 20px;
+    color: #DFD0B8;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  nav a {
+    color: #DFD0B8;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  nav a:hover {
+    color: #948979;
+  }
+  section {
+    height: 500px;
+    padding: 40px;
+  }
+  #Home {
+    background: #393E46;
+    color: #DFD0B8;
+  }
+  #about {
+    background: #948979;
+    color: #222831;
+  }
+  #product {
+    background: #393E46;
+    color: #DFD0B8;
+  }
+</style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1 class="logo">The Unplugged</h1>
-      <nav>
-        <ul>
-    <li><a href="#Home">Home</a></li>
-    <li><a href="#about">About Us</a></li>
-    <li><a href="#product">Product</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#product">Product</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="Home" class="section">
-    <div class="container">
-      <h2>Welcome to Our Page!</h2>
-    </div>
+  <section id="Home">
+    <h2>Home Section</h2>
+    <p>Welcome to Home!</p>
   </section>
 
-  <section id="about" class="section light">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We are a student who want to blablabla.</p>
-
-      <!-- Embed Canva -->
-      <div class="embed-container">
-        <iframe loading="lazy"
-          src="https://www.canva.com/design/DAGWgfyWL9M/FTQ7wcHBy2tTeyutgvsSXw/view?embed"
-          allowfullscreen="allowfullscreen" allow="fullscreen">
-        </iframe>
-      </div>
-    </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>About content goes here.</p>
   </section>
 
-  <section id="product" class="section">
-    <div class="container">
-      <h2>Our Product</h2>
-      <p>Explore our wide range of quality products crafted to meet your needs.</p>
-    </div>
+  <section id="product">
+    <h2>Product Section</h2>
+    <p>Product info here.</p>
   </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 The Unplugged. All rights reserved.</p>
-    </div>
-  </footer>
 </body>
 </html>
