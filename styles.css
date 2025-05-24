@@ -103,3 +103,20 @@ footer {
   top: 0; left: 0;
   border: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav a {
+  color: #DFD0B8;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #948979;
+}
+
