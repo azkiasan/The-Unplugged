@@ -1,89 +1,86 @@
-/* RESET & BASE */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #DFD0B8;
+  color: #222831;
   line-height: 1.6;
-  background-color: #DFD0B8; /* soft light */
-  color: #222831; /* dark text */
+}
+
+header {
+  background: #222831;
+  padding: 20px 0;
+  color: #DFD0B8;
 }
 
 .container {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  text-align: left;
-  padding: 20px 0;
-}
-
-/* HEADER */
-header {
-  background-color: #222831; /* very dark */
-  color: #DFD0B8; /* light text */
-  padding: 20px 0;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 28px;
-  margin-bottom: 10px;
+  padding: 0 20px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
-nav li {
-  display: inline;
+nav a {
   color: #DFD0B8;
+  text-decoration: none;
   font-weight: 600;
   cursor: pointer;
   transition: color 0.3s;
 }
 
-nav li:hover {
-  color: #948979; /* accent */
+nav a:hover {
+  color: #948979;
 }
 
-/* SECTIONS */
-.section {
+h1.logo {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+section {
   padding: 60px 0;
-  background-color: #393E46; /* medium dark */
-  color: #DFD0B8; /* light text */
 }
 
-.section.light {
-  background-color: #948979; /* accent greenish */
-  color: #222831; /* dark text */
+#Home {
+  background: #393E46;
+  color: #DFD0B8;
 }
 
-.section.light h2 {
+#about {
+  background: #948979;
   color: #222831;
 }
 
+#about h2 {
+  color: #222831;
+}
+
+#product {
+  background: #393E46;
+  color: #DFD0B8;
+}
+
 h2 {
-  color: #DFD0B8; /* light accent */
   margin-bottom: 20px;
 }
 
 p {
-  color: inherit;
+  max-width: 700px;
 }
 
-/* FOOTER */
-footer {
-  background-color: #222831;
-  color: #DFD0B8;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 14px;
-}
-
-/* IFRAME EMBED */
+/* Embed Canva */
 .embed-container {
   position: relative;
   width: 100%;
@@ -100,23 +97,15 @@ footer {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   border: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-nav a {
+footer {
+  background-color: #222831;
   color: #DFD0B8;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.3s;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
 }
-
-nav a:hover {
-  color: #948979;
-}
-
