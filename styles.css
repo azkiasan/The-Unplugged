@@ -71,11 +71,20 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-.hero p, .hero .highlight-intro {
-    text-align: left !important;
+.hero p {
+    text-align: left !important; 
     max-width: 700px;
     margin: 0 auto 1rem auto;
     line-height: 1.6;
+}
+
+.hero .highlight-intro {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ff6f61;
+    text-align: center !important;
+    max-width: 700px;
+    margin: 0 auto 1rem auto;
 }
 
 .section-separator {
