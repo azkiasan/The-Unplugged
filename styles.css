@@ -137,17 +137,16 @@ nav a:hover {
     font-size: 2rem;
     color: #ff6f61;
     margin-bottom: 1rem;
-    text-align: center;           
-    background-color: #ffe8d6;    
-    display: inline-block;        
-    padding: 0.5rem 1rem;         
-    border-radius: 8px;           
-    max-width: fit-content;       
+    text-align: center;
+    background-color: #ffe8d6;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
 }
 
- .members, .products {
+  .about us, .our product {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -155,14 +154,18 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
+   
 }
- 
 footer {
     background-color: #ffcc70;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
     color: #333;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
