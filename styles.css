@@ -47,14 +47,13 @@ nav a:hover {
 }
 
 .hero {
-    background-color: #ffe8d6;
-    text-align: center;
-    flex: 1; /* ini bikin hero full height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    background-color: #ffe8d6;
 }
 
 .hero img {
