@@ -1,5 +1,4 @@
-/* Reset CSS */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,6 +41,10 @@ nav a:hover {
     background-color: #ffe8d6;
     text-align: center;
     padding: 2rem;
+    min-height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero img {
