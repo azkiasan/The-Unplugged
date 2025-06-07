@@ -158,6 +158,13 @@ nav a:hover {
     border: none;
 }
 
+.our-product {
+    background-color: #ffe8d6; 
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     background-color: #ffcc70;
     text-align: center;
