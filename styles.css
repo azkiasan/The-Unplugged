@@ -137,6 +137,10 @@ nav a:hover {
     font-size: 2rem;
     color: #ff6f61;
     margin-bottom: 1rem;
+    text-align: left;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .members, .products {
@@ -144,8 +148,10 @@ nav a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
-
 footer {
     background-color: #ffcc70;
     text-align: center;
