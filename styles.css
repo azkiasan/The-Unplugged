@@ -60,8 +60,10 @@ nav a:hover {
 }
 
 .hero img {
+    display: block;
     max-width: 250px;
-    margin-bottom: 1rem;
+    height: auto;
+    margin: 0 auto 1rem auto;
 }
 
 .hero h2 {
