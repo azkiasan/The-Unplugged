@@ -50,14 +50,11 @@ nav a:hover {
 }
 
 .hero {
-    flex: 1; 
-    min-height: 100vh;
+    padding: 4rem 2rem; /* Biar home ngisi tampilan */
+    background-color: #ffe8d6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 2rem;
-    background-color: #ffe8d6;
 }
 
 .hero img {
@@ -67,31 +64,30 @@ nav a:hover {
 
 .hero h2 {
     color: #4b3f72;
-    font-size: 2rem;
+    font-size: 2.4rem; /* Lebih gede supaya proporsional */
     margin-bottom: 1rem;
 }
 
-.section-separator {
-    margin: 2rem 0;
-    border: none;
-    border-top: 2px dashed #ffcc70; 
-    width: 60%;
+.hero .highlight-intro {
+    font-size: 1.6rem; /* Lebih kecil dari Welcome, heading style */
+    font-weight: bold;
+    color: #ff6f61; /* Beda warna */
+    text-align: center; /* Tetap center kayak Welcome */
+    margin-bottom: 1rem;
 }
 
 .hero p {
-    text-align: left !important; 
+    text-align: left;
     max-width: 700px;
     margin: 0 auto 1rem auto;
     line-height: 1.6;
 }
 
-.hero .highlight-intro {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ff6f61;
-    text-align: center !important;
-    max-width: 700px;
-    margin: 0 auto 1rem auto;
+.section-separator {
+    margin: 2rem 0;
+    border: none;
+    border-top: 2px dashed #ffcc70;
+    width: 60%;
 }
 
 .section {
