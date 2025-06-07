@@ -19,7 +19,7 @@ html, body {
 
 header {
     display: flex;
-    flex-direction: row; /* default desktop */
+    flex-direction: row; 
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
@@ -29,7 +29,7 @@ header {
 
 header h1 {
     color: #ff6f61;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 nav {
@@ -41,6 +41,7 @@ nav a {
     text-decoration: none;
     color: #4b3f72;
     font-weight: bold;
+    font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
