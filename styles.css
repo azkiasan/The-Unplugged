@@ -1,111 +1,43 @@
-html {
-  scroll-behavior: smooth;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Unplugged</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kids Learn</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#members">Members</a>
+            <a href="#products">Our Product</a>
+        </nav>
+    </header>
 
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #DFD0B8;
-  color: #222831;
-  line-height: 1.6;
-}
+    <section id="home" class="hero">
+        <img src="https://img.icons8.com/clouds/500/000000/kawaii-planet.png" alt="Children Education Icon"/>
+        <h2>Welcome to Our Page!</h2>
+        <p>Fun and engaging education platform for your little stars ✨</p>
+    </section>
 
-header {
-  background: #222831;
-  padding: 20px 0;
-  color: #DFD0B8;
-}
+    <section id="members" class="section">
+        <h3>Our Members</h3>
+        <div class="members">
+            <iframe src="https://www.canva.com/design/DAGWgfyWL9M/FTQ7wcHBy2tTeyutgvsSXw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen" style="width: 100%; height: 500px; border: none;"></iframe>
+        </div>
+    </section>
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+    <section id="products" class="section">
+        <h3>Our Product</h3>
+        <div class="products">
+            <!-- Kosong sementara, akan diisi link Canva nanti -->
+        </div>
+    </section>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
-}
-
-nav a {
-  color: #DFD0B8;
-  text-decoration: none;
-  font-weight: 600;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #948979;
-}
-
-h1.logo {
-  font-weight: 700;
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-section {
-  padding: 60px 0;
-}
-
-#Home {
-  background: #393E46;
-  color: #DFD0B8;
-}
-
-#about {
-  background: #948979;
-  color: #222831;
-}
-
-#about h2 {
-  color: #222831;
-}
-
-#product {
-  background: #393E46;
-  color: #DFD0B8;
-}
-
-h2 {
-  margin-bottom: 20px;
-}
-
-p {
-  max-width: 700px;
-}
-
-/* Embed Canva */
-.embed-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 56.25%; /* 16:9 aspect ratio */
-  margin-top: 1.6em;
-  margin-bottom: 0.9em;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(34, 40, 49, 0.5);
-}
-
-.embed-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border: none;
-}
-
-footer {
-  background-color: #222831;
-  color: #DFD0B8;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 14px;
-}
+    <footer>
+        &copy; 2025 The Unplugged.
+    </footer>
+</body>
+</html>
