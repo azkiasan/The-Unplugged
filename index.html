@@ -14,27 +14,28 @@
           <a href="#" onclick="showSection('home')">Home</a>
           <a href="#" onclick="showSection('about us')">About Us</a>
           <a href="#" onclick="showSection('our product')">Our Product</a>
+          <a href="#" onclick="showSection('design process')">Design Process</a>
         </nav>
     </header>
 
     <section id="home" class="hero">
-    <img width="96" height="96" src="https://img.icons8.com/doodle/96/pinguin.png" alt="pinguin"/>
-    <h2>Welcome to Our Page!</h2>
-    <p>Fun and engaging education platform for your little stars ✨</p>
+        <img width="96" height="96" src="https://img.icons8.com/doodle/96/pinguin.png" alt="pinguin"/>
+        <h2>Welcome to Our Page!</h2>
+        <p>Fun and engaging education platform for your little stars ✨</p>
 
-    <hr class="section-separator">
+        <hr class="section-separator">
 
-     <h3 class="highlight-intro">Why is the website’s name Unplugged, you might ask.</h3>
-    <p class="hero-text">
-        The word unplugged usually means "not connected to electricity" or "without being plugged in." It can also mean taking a break from constant screen time and digital distractions.
-    </p>
-    <p class="hero-text">
-        In our case, Unplugged symbolizes the idea of using technology more intentionally — not just for mindless entertainment, but for learning and discovery.
-    </p>
-    <p class="hero-text">
-        With our Guess the Animal Sound game, we want children to engage with their devices not just for entertainment, but also for learning. By playing this, they can improve their listening skills and discover the world of animals, turning screen time into a fun, educational experience, also helping them "unplug" from passive content and plug into learning.
-    </p>
-</section>
+        <h3 class="highlight-intro">Why is the website’s name Unplugged, you might ask.</h3>
+        <p class="hero-text">
+            The word unplugged usually means "not connected to electricity" or "without being plugged in." It can also mean taking a break from constant screen time and digital distractions.
+        </p>
+        <p class="hero-text">
+            In our case, Unplugged symbolizes the idea of using technology more intentionally — not just for mindless entertainment, but for learning and discovery.
+        </p>
+        <p class="hero-text">
+            With our Guess the Animal Sound game, we want children to engage with their devices not just for entertainment, but also for learning. By playing this, they can improve their listening skills and discover the world of animals, turning screen time into a fun, educational experience, also helping them "unplug" from passive content and plug into learning.
+        </p>
+    </section>
 
     <section id="about us" class="section" style="display:none;">
         <h3>Let's Get To Know Each Other!</h3>
@@ -46,19 +47,26 @@
     <section id="our product" class="section" style="display:none;">
         <h3>Please Take A Look at This!</h3>
         <div class="our-product">
-            <iframe src="https://www.canva.com/design/DAGppxI3xWY/VlZPdHod_5g7Bg0ySpoSBA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen" style="width: 100%; height: 500px; border: none;"></iframe>
+            <iframe src="https://scratch.mit.edu/projects/1183698259/embed" allowfullscreen style="width: 100%; height: 500px; border: none;"></iframe>
         </div>
     </section>
 
-<script>
-function showSection(id) {
-  const sections = ['home', 'about us', 'our product'];
-  sections.forEach(sectionId => {
-    document.getElementById(sectionId).style.display = (sectionId === id) ? 'block' : 'none';
-  });
-}
-</script>
-    
+    <section id="design process" class="section" style="display:none;">
+        <h3>See Our Design Journey!</h3>
+        <div class="design-process">
+            <iframe src="https://www.canva.com/design/DAGppxI3xWY/VlZPdHod_5g7Bg0ySpoSBA/view?embed" allowfullscreen style="width: 100%; height: 500px; border: none;"></iframe>
+        </div>
+    </section>
+
+    <script>
+    function showSection(id) {
+      const sections = ['home', 'about us', 'our product', 'design process'];
+      sections.forEach(sectionId => {
+        document.getElementById(sectionId).style.display = (sectionId === id) ? 'block' : 'none';
+      });
+    }
+    </script>
+
     <footer>
         &copy; 2025 The Unplugged.
     </footer>
